@@ -1,0 +1,53 @@
+{
+  "name": "@damienvesper/survivio-gun-color",
+  "version": "0.0.1",
+  "description": "Counters for surviv.io.",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "dev:lint": "eslint . --fix --ext .ts,.js",
+    "dev:lint:ci": "eslint . --ext .ts,.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienVesper/SurvivGunColor.git"
+  },
+  "keywords": [
+    "surviv-io",
+    "tampermonkey",
+    "greasyfork"
+  ],
+  "author": "DamienVesper",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DamienVesper/SurvivGunColor/issues"
+  },
+  "homepage": "https://github.com/DamienVesper/SurvivGunColor#readme",
+  "engines": {
+    "node": ">=16.6.0",
+    "pnpm": ">=7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.17.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-userscripts": "^0.2.6",
+    "sass": "^1.52.3",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  }
+}

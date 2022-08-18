@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "strictNullChecks": true
+    },
+    "include": ["./config/**/*", "./src/**/*", "./assets/**/*", "./webpack.config.ts", "./index.d.ts"]
+}
