@@ -15,4 +15,4 @@ class Fists extends Component {
     }
 }
 
-export default AdrenCounter;
+export default Fists;
