@@ -1,8 +1,8 @@
-const weapons: Array<Record<`name` | `color`, string> & { guns: string[] }> = [
+const weapons: Array<{ name: string, color: number, items: string[] }> = [
     {
         name: `9mm`,
-        color: `ffae00`,
-        guns: [
+        color: 0xffae00,
+        items: [
             `M9`,
             `MP5`,
             `Vector`,
@@ -18,8 +18,8 @@ const weapons: Array<Record<`name` | `color`, string> & { guns: string[] }> = [
     },
     {
         name: `7.62mm`,
-        color: `0066ff`,
-        guns: [
+        color: 0x0066ff,
+        items: [
             `AK-47`,
             `OT-38`,
             `M39 EMR`,
@@ -39,8 +39,8 @@ const weapons: Array<Record<`name` | `color`, string> & { guns: string[] }> = [
     },
     {
         name: `5.56mm`,
-        color: `039e00`,
-        guns: [
+        color: 0x039e00,
+        items: [
             `FAMAS`,
             `M416`,
             `M249`,
@@ -53,8 +53,8 @@ const weapons: Array<Record<`name` | `color`, string> & { guns: string[] }> = [
     },
     {
         name: `12 gauge`,
-        color: `ff0000`,
-        guns: [
+        color: 0xff0000,
+        items: [
             `M870`,
             `MP220`,
             `Saiga-12`,
@@ -66,62 +66,62 @@ const weapons: Array<Record<`name` | `color`, string> & { guns: string[] }> = [
     },
     {
         name: `.50 AE`,
-        color: `292929`,
-        guns: [
+        color: 0x292929,
+        items: [
             `DEagle 50`
         ]
     },
     {
         name: `.308 Subsonic`,
-        color: `465000`,
-        guns: [
+        color: 0x465000,
+        items: [
             `AWM-S`,
             `Mk 20 SSR`
         ]
     },
     {
         name: `Flare`,
-        color: `ffa500`,
-        guns: [`Flare Gun`]
+        color: 0xffa500,
+        items: [`Flare Gun`]
     },
     {
         name: `.45 ACP`,
-        color: ``,
-        guns: [
+        color: 0x7900FF,
+        items: [
             `Model 94`,
             `Peacemaker`,
-            `Vector`,
+            `Vector 45`,
             `M1911`,
             `M1A1`
         ]
     },
     {
         name: `40mm`,
-        color: ``,
-        guns: [`M79`]
+        color: 0x0CDDAB,
+        items: [`M79`]
     },
     {
         name: `Potato Ammo`,
-        color: ``,
-        guns: [
+        color: 0x935924,
+        items: [
             `Potato Cannon`,
             `Spud Gun`
         ]
     },
     {
         name: `Heart Ammo`,
-        color: ``,
-        guns: [`Heart Cannon`]
+        color: 0x000000,
+        items: [`Heart Cannon`]
     },
     {
         name: `Rainbow`,
-        color: ``,
-        guns: [`Rainbow Blaster`]
+        color: 0x000000,
+        items: [`Rainbow Blaster`]
     },
     {
         name: `Bugle`,
-        color: ``,
-        guns: []
+        color: 0x00000,
+        items: []
     }
 ];
 
