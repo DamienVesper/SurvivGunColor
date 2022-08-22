@@ -1,23 +1,23 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': ^17.0.42
-  '@typescript-eslint/eslint-plugin': ^5.28.0
-  '@typescript-eslint/parser': ^5.28.0
+  '@types/node': ^17.0.45
+  '@typescript-eslint/eslint-plugin': ^5.33.1
+  '@typescript-eslint/parser': ^5.33.1
   css-loader: ^6.7.1
-  eslint: ^8.17.0
+  eslint: ^8.22.0
   eslint-config-standard-with-typescript: ^21.0.1
   eslint-plugin-import: ^2.26.0
   eslint-plugin-node: ^11.1.0
   eslint-plugin-promise: ^6.0.0
-  eslint-plugin-userscripts: ^0.2.6
-  sass: ^1.52.3
+  eslint-plugin-userscripts: ^0.2.8
+  sass: ^1.54.5
   sass-loader: ^12.6.0
   style-loader: ^3.3.1
-  ts-loader: ^9.3.0
-  ts-node: ^10.8.1
-  typescript: ^4.7.3
-  webpack: ^5.73.0
+  ts-loader: ^9.3.1
+  ts-node: ^10.9.1
+  typescript: ^4.7.4
+  webpack: ^5.74.0
   webpack-cli: ^4.10.0
   webpack-merge: ^5.8.0
 
@@ -32,8 +32,8 @@ devDependencies:
   eslint-plugin-node: 11.1.0_eslint@8.22.0
   eslint-plugin-promise: 6.0.0_eslint@8.22.0
   eslint-plugin-userscripts: 0.2.8_eslint@8.22.0
-  sass: 1.54.4
-  sass-loader: 12.6.0_sass@1.54.4+webpack@5.74.0
+  sass: 1.54.5
+  sass-loader: 12.6.0_sass@1.54.5+webpack@5.74.0
   style-loader: 3.3.1_webpack@5.74.0
   ts-loader: 9.3.1_xnp4kzegbjokq62cajex2ovgkm
   ts-node: 10.9.1_x2utdhayajzrh747hktprshhby
@@ -176,12 +176,12 @@ packages:
   /@types/eslint-scope/3.7.4:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
-      '@types/eslint': 8.4.5
+      '@types/eslint': 8.4.6
       '@types/estree': 0.0.51
     dev: true
 
-  /@types/eslint/8.4.5:
-    resolution: {integrity: sha512-dhsC09y1gpJWnK+Ff4SGvCuSnk9DaU0BJZSzOwa6GVSg65XtTugLBITDAAzRU5duGBoXBHpdR/9jHGxJjNflJQ==}
+  /@types/eslint/8.4.6:
+    resolution: {integrity: sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==}
     dependencies:
       '@types/estree': 0.0.51
       '@types/json-schema': 7.0.11
@@ -662,8 +662,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001377
-      electron-to-chromium: 1.4.222
+      caniuse-lite: 1.0.30001380
+      electron-to-chromium: 1.4.225
       node-releases: 2.0.6
       update-browserslist-db: 1.0.5_browserslist@4.21.3
     dev: true
@@ -684,8 +684,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /caniuse-lite/1.0.30001377:
-    resolution: {integrity: sha512-I5XeHI1x/mRSGl96LFOaSk528LA/yZG3m3iQgImGujjO8gotd/DL8QaI1R1h1dg5ATeI2jqPblMpKq4Tr5iKfQ==}
+  /caniuse-lite/1.0.30001380:
+    resolution: {integrity: sha512-OO+pPubxx16lkI7TVrbFpde8XHz66SMwstl1YWpg6uMGw56XnhYVwtPIjvX4kYpzwMwQKr4DDce394E03dQPGg==}
     dev: true
 
   /chalk/4.1.2:
@@ -861,8 +861,8 @@ packages:
       esutils: 2.0.3
     dev: true
 
-  /electron-to-chromium/1.4.222:
-    resolution: {integrity: sha512-gEM2awN5HZknWdLbngk4uQCVfhucFAfFzuchP3wM3NN6eow1eDU0dFy2kts43FB20ZfhVFF0jmFSTb1h5OhyIg==}
+  /electron-to-chromium/1.4.225:
+    resolution: {integrity: sha512-ICHvGaCIQR3P88uK8aRtx8gmejbVJyC6bB4LEC3anzBrIzdzC7aiZHY4iFfXhN4st6I7lMO0x4sgBHf/7kBvRw==}
     dev: true
 
   /enhanced-resolve/5.10.0:
@@ -1295,12 +1295,12 @@ packages:
     resolution: {integrity: sha512-dm9s5Pw7Jc0GvMYbshN6zchCA9RgQlzzEZX3vylR9IqFfS8XciblUXOKfW6SiuJ0e13eDYZoZV5wdrev7P3Nwg==}
     engines: {node: ^10.12.0 || >=12.0.0}
     dependencies:
-      flatted: 3.2.6
+      flatted: 3.2.7
       rimraf: 3.0.2
     dev: true
 
-  /flatted/3.2.6:
-    resolution: {integrity: sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==}
+  /flatted/3.2.7:
+    resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
   /fs.realpath/1.0.0:
@@ -2076,7 +2076,7 @@ packages:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
     dev: true
 
-  /sass-loader/12.6.0_sass@1.54.4+webpack@5.74.0:
+  /sass-loader/12.6.0_sass@1.54.5+webpack@5.74.0:
     resolution: {integrity: sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
@@ -2097,12 +2097,12 @@ packages:
     dependencies:
       klona: 2.0.5
       neo-async: 2.6.2
-      sass: 1.54.4
+      sass: 1.54.5
       webpack: 5.74.0_webpack-cli@4.10.0
     dev: true
 
-  /sass/1.54.4:
-    resolution: {integrity: sha512-3tmF16yvnBwtlPrNBHw/H907j8MlOX8aTBnlNX1yrKx24RKcJGPyLhFUwkoKBKesR3unP93/2z14Ll8NicwQUA==}
+  /sass/1.54.5:
+    resolution: {integrity: sha512-p7DTOzxkUPa/63FU0R3KApkRHwcVZYC0PLnLm5iyZACyp15qSi32x7zVUhRdABAATmkALqgGrjCJAcWvobmhHw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
