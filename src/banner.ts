@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Surviv.io Counters
-// @namespace    https://github.com/DamienVesper/SurvivCounters
-// @version      2.0.1
-// @description  An ingame counter overlay to view connection stats and in-game health stats.
+// @name         Surviv.io Gun Color
+// @namespace    https://github.com/DamienVesper/SurvivGunColor
+// @version      0.0.1
+// @description  Adds visible indicators to gun classes / armor tiers.
 // @author       DamienVesper
 // @license      AGPL-3.0
 // @run-at       document-start
