@@ -3,3 +3,6 @@ dist/
 
 # Minified files
 *.min.js
+
+# The extra file
+bruh.js
