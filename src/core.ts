@@ -1,12 +1,10 @@
-import Fists from './components/weapons/Fists'
-import SlotOne from './components/weapons/SlotOne'
-import SlotTwo from './components/weapons/SlotTwo'
-import Throwable from './components/weapons/Throwable'
-
+import Fists from './components/weapons/Fists';
+import SlotOne from './components/weapons/SlotOne';
+import SlotTwo from './components/weapons/SlotTwo';
+import Throwable from './components/weapons/Throwable';
 
 interface Core {
     components: {
-        armor?: {}
         weapons: {
             slotOne: SlotOne
             slotTwo: SlotTwo
