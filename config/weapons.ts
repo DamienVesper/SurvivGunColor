@@ -4,14 +4,18 @@ const weapons: Array<{ name: string, color: number, items: string[] }> = [
         color: 0xffae00,
         items: [
             `M9`,
-            `MP5`,
-            `Vector`,
+            `Dual M9`,
             `G18C`,
-            `MAC-10`,
-            `UMP9`,
+            `Dual G18C`,
             `M93R`,
-            `CZ-3A1`,
+            `Dual M93R`,
             `P30L`,
+            `Dual P30L`,
+            `UMP9`,
+            `MP5`,
+            `MAC-10`,
+            `Vector`,
+            `CZ-3A1`,
             `VSS`,
             `Flamethrower`
         ]
@@ -20,20 +24,25 @@ const weapons: Array<{ name: string, color: number, items: string[] }> = [
         name: `7.62mm`,
         color: 0x0066ff,
         items: [
-            `AK-47`,
             `OT-38`,
-            `M39 EMR`,
+            `Dual OT-38`,
+            `OTs-38`,
+            `Dual OTs-38`,
             `DP-28`,
-            `Mosin-Nagant`,
-            `SCAR-H`,
-            `SV-98`,
-            `M1 Garand`,
-            `PKP Pecheneg`,
+            `Groza`,
+            `Groza-S`,
+            `AK-47`,
             `AN-94`,
+            `SCAR-H`,
             `BAR M1918`,
+            `M134`,
+            `PKP Pecheneg`,
+            `M39 EMR`,
             `BLR 81`,
             `SVD-63`,
-            `M134`,
+            `M1 Garand`,
+            `Mosin-Nagant`,
+            `SV-98`,
             `Water Gun`
         ]
     },
@@ -43,24 +52,26 @@ const weapons: Array<{ name: string, color: number, items: string[] }> = [
         items: [
             `FAMAS`,
             `M416`,
-            `M249`,
-            `QBB-97`,
-            `Mk 12 SPR`,
             `M4A1-S`,
-            `Scout Elite`,
-            `L86A2`
+            `QBB-97`,
+            `M249`,
+            `Mk 12 SPR`,
+            `L86A2`,
+            `Scout Elite`
         ]
     },
     {
         name: `12 gauge`,
         color: 0xff0000,
         items: [
+            `M1100`,
+            `Hawk 12G`,
             `M870`,
             `MP220`,
             `Saiga-12`,
             `SPAS-12`,
-            `USAS-12`,
             `Super 90`,
+            `USAS-12`,
             `Lasr Gun`
         ]
     },
@@ -75,8 +86,8 @@ const weapons: Array<{ name: string, color: number, items: string[] }> = [
         name: `.308 Subsonic`,
         color: 0x465000,
         items: [
-            `AWM-S`,
-            `Mk 20 SSR`
+            `Mk 20 SSR`,
+            `AWM-S`
         ]
     },
     {
@@ -88,11 +99,12 @@ const weapons: Array<{ name: string, color: number, items: string[] }> = [
         name: `.45 ACP`,
         color: 0x7900FF,
         items: [
-            `Model 94`,
-            `Peacemaker`,
-            `Vector 45`,
             `M1911`,
-            `M1A1`
+            `Peacemaker`,
+            `M1A1`,
+            `Vector 45`,
+            `Mk45G`,
+            `Model 94`
         ]
     },
     {
