@@ -1,7 +1,7 @@
-// Import styles.
-import '../assets/scss/common.scss';
-
-const init = (): void => {};
+const init = (): void => {
+    // Import scripts.
+    import(`./core`);
+};
 
 window.onload = () => {
     init();
